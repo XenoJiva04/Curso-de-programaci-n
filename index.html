@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------------------- Remixicons ---------------------->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <!----------------------- Css ---------------------->
+    <link rel="stylesheet" href="C:\Users\vanb2\OneDrive\Documentos\Portafolio\style.css" />
+
+    <title>Portafolio Website</title>
+</head>
+<body>
+    <!----------------------- Header ---------------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Hola</a>
+                    </li>
+
+                     <li>
+                        <a href="#servivios" class="nav__link">Servicios</a>
+                    </li>
+
+                     <li>
+                        <a href="#resumen" class="nav__link">Resumen</a>
+                    </li>
+
+                     <li>
+                        <a href="#portafolio" class="nav__link">Portafolio</a>
+                    </li>
+
+                     <li>
+                        <a href="#blog" class="nav__link">Blog</a>
+                    </li>
+
+                     <li>
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+    <!----------------------- Main ---------------------->
+    <main class="main">
+        <!----------------------- Home ---------------------->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="../Portafolio/profile.jpg.jpg" alt="" class="home__img" />
+
+                <div class="home__Data">
+                    <h1 class="home__name">Victor Nava</h1>
+                    <p class="home__work">Programador Junior, Panadero</p>
+                    <dl class="home__list">
+                        <dt>EDAD:</dt>
+                        <dd>24</dd>
+                        <dt>TELEFONO:</dt>
+                        <dd>0414 6776309</dd>
+                        <dt>CORREO:</dt>
+                        <dd>vanb2001@gmail.com</dd>
+                        <dt>DIRECCIÓN</dt>
+                        <dd>San Francisco Zulia 4004 Venezuela</dd>
+                    </dl>
+                    <div class="home__socials">
+                        <a href="https://github.com/XenoJiva04" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/victoralejandro.navabello/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/v.alejandronava/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------- Hola ---------------------->
+        <section class="hola section container">
+            <h2 class="section__title">Que tal</h2>
+
+            <p class="hola__details text-lg">
+                Soy un programador junior o aprendiz el cual tiene un buen interes en este tema de la programacion, me gusta aprender y mejorar mis habilidades, actualmente estoy aprendiendo a programar en JavaScript, Python, HTML, CSS, C#, PHP y SQL
+            </p>
+            <a href="../Portafolio/Curriculum Victor Nava.pdf" class="button button--flex text-sm"
+                ><i class="ri-file-download-line"></i> DESCARGAR CV </a>
+        </section>
+
+        <!----------------------- Servicios ---------------------->
+        <section class="servicios section container" id="servicios">
+            <h2 class="section__title">Servicios_</h2>
+
+            <div class="servicios__container grid">
+                <div class="servicios__item">
+                    <div class="icon__box">
+                        <img
+                         src="../Portafolio/web-design.png" 
+                         alt="" 
+                         class="servicios__icon" 
+                        />
+                        <div class="servides__dot">
+                            <span class="dot"></span>                           
+                        </div>
+                    </div>
+
+                    <h3 class="servicios__tittle text-lg">DISEÑADOR WEB</h3>
+                    <p class="servicios__details">
+                        Puedo crear sitios web atractivos y funcionales que se adapten a tus necesidades y objetivos.
+                    </p>
+                </div>
+
+                <div class="servicios__item">
+                    <div class="icon__box">
+                        <img
+                         src="../Portafolio/laptop.png" 
+                         alt="" 
+                         class="servicios__icon" 
+                        />
+                        <div class="servides__dot">
+                            <span class="dot"></span>                           
+                        </div>
+                    </div>
+
+                    <h3 class="servicios__tittle text-lg">DESARROLLADOR WEB</h3>
+                    <p class="servicios__details">
+                        He trabajado en proyectos de desarrollo web, creando aplicaciones y sitios web interactivos.
+                    </p>
+                </div>
+
+                <div class="servicios__item">
+                    <div class="icon__box">
+                        <img
+                         src="../Portafolio/operator.png" 
+                         alt="" 
+                         class="servicios__icon" 
+                        />
+                        <div class="servides__dot">
+                            <span class="dot"></span>                           
+                        </div>
+                    </div>
+
+                    <h3 class="servicios__tittle text-lg">SOPORTE 24/7</h3>
+                    <p class="servicios__details">
+                        Siempre priorizo la atencion al cliente y me esfuerzo en darle el trato que se merece
+                    </p>
+                </div>
+
+                <div class="servicios__item">
+                    <div class="icon__box">
+                        <img
+                         src="../Portafolio/paint-palette.png" 
+                         alt="" 
+                         class="servicios__icon" 
+                        />
+                        <div class="servides__dot">
+                            <span class="dot"></span>                           
+                        </div>
+                    </div>
+
+                    <h3 class="servicios__tittle text-lg">DISEÑADOR CREATIVO</h3>
+                    <p class="servicios__details">
+                        Tengo una excelente creatividad al momento de diseñar alguna pagina o aplicacion para que sea extremadamente llamativa a la vista de los usuarios
+                    </p>
+                </div>
+
+                <div class="servicios__item">
+
+                    <div class="icon__box">
+                        <img
+                         src="../Portafolio/smartphone-call.png" 
+                         alt="" 
+                         class="servicios__icon" 
+                        />
+                        <div class="servides__dot">
+                            <span class="dot"></span>                           
+                        </div>
+                    </div>
+
+                    <h3 class="servicios__tittle text-lg">CONTACTO POR TELEFONO</h3>
+                    <p class="servicios__details">
+                        Siempre al tanto de las consultas que tengan los clientes
+                    </p>
+                </div>
+
+                <div class="servicios__item">
+                    <div class="icon__box">
+                        <img
+                         src="../Portafolio/verified.png" 
+                         alt="" 
+                         class="servicios__icon" 
+                        />
+                        <div class="servides__dot">
+                            <span class="dot"></span>                           
+                        </div>
+                    </div>
+
+                    <h3 class="servicios__tittle text-lg">VERIFICADO</h3>
+                    <p class="servicios__details">
+                        Con mi verificacion puedes creer y confiar en el buen trabajo que puedo llegar a realizar
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------- Resumen ---------------------->
+        <section class="tion section container" id="resume">
+            <h2 class="section__tittle">Resumen_</h2>
+
+            <div class="resumen__container grid">
+                <h3 class="resumen__title text-sm">EDUCACIÓN</h3>
+
+                <div class="resumen__item">
+                    <h3 class="resumen__subtitle text-sm">
+                        FE Y ALEGRIA</h3>
+                    <p class="resumen__date text">2006 - 2012</p>
+                    <p class="resumen__description text-lg">
+                        Primaria 
+                    </p>
+                </div>
+
+                <div class="resumen__item">
+                    <h3 class="resumen__subtitle text-sm">
+                        Julia Añez Gabaldon
+                    </h3>
+                    <p class="resumen__date text">2013 - 2018</p>
+                    <p class="resumen__description text-lg">
+                        Bachiller 
+                    </p>
+                </div>
+
+                <div class="resumen__item">
+                    <h3 class="resumen__subtitle text-sm">Centro Educativo Logros</h3>
+                    <p class="resumen__date text">2019 - 2019</p>
+                    <p class="resumen__description text-lg">Asistente de laboratorio Clinico</p>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-------------- Js ------------------>
+    <script src="C:\Users\vanb2\OneDrive\Documentos\Portafolio\main.js"></script>
+</body>
+</html>
